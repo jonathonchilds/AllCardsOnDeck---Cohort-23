@@ -1,4 +1,19 @@
-﻿using System;
+﻿
+//assignment instructions:
+//     Your deck should contain 52 unique cards.
+//     All cards should be represented as a string such as "Ace of Hearts"
+//     There are four suits: "Clubs", "Diamonds", "Hearts", and "Spades".
+//     There are 13 ranks: "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", and "King".
+
+// You will model these in code, in any way you see fit. It may require you to experiment and try several techniques. 
+// There are many valid solutions.
+//     Once the program starts, you should create a new deck.
+//     After deck creation, you should shuffle the deck.
+//     After the deck is shuffled, display the top two cards.
+
+
+
+using System;
 using System.Collections.Generic;
 namespace AllCardsOnDeckCS
 {
@@ -33,10 +48,3 @@ namespace AllCardsOnDeckCS
         }
     }
 }
-
-// for (int n = deck.Length - 1; n > 0; --n)
-//       {
-//           int k = r.Next(n+1);
-//           int temp = deck[n];
-//           deck[n] = deck[k];
-//           deck[k] = temp;
